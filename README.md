@@ -1,4 +1,5 @@
-### Note there is a known bug in react-scripts 3.4.1 and still there as of 3.4.3 which causes docker run to fail in dev mode
+## `Note`
+### There is a known bug in react-scripts 3.4.1 and still there as of 3.4.3 which causes docker run to fail in dev mode
 ### the build process will work as expected but when you attempt a docker run the container will exit
 ### To fix you can change the version of react-scripts to 3.4.0 in the package.json or I just installed that version in my
 ### Dockerfile, I'm pretty sure my way is bad!! but this is dev mode this a non-issue if you build the prod version of the app
